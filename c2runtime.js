@@ -20588,5 +20588,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.IsAnimPlaying,
 	cr.plugins_.Audio.prototype.acts.SetMasterVolume,
 	cr.system_object.prototype.acts.SetVar,
+	cr.system_object.prototype.acts.Wait,
 	cr.plugins_.Sprite.prototype.acts.SetAnim
 ];};
